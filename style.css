@@ -8,6 +8,7 @@
 	color: #ffff;
 	font-family: "Open Sans", sans-serif;
 	scroll-behavior: smooth;
+	user-select: none;
 }
 .container {
 	display: flex;
@@ -24,13 +25,18 @@
 	padding-top: 0.5rem;
 	display: flex;
 	justify-content: flex-start;
-	width: 25%;
+	max-width: 25%;
 	background-color: #1212;
-	padding-left: 5rem;
+	padding-left: 2rem;
+	margin-right: 2rem;
 }
 
 ul {
 	list-style-type: none;
+	display: flex;
+	justify-items: start;
+	justify-content: flex-start;
+	flex-direction: column;
 }
 
 ul > li {
@@ -45,11 +51,11 @@ a {
 .logo {
 	display: flex;
 	justify-content: flex-start;
-	padding-left: 0.5rem;
+	padding-left: 1rem;
 }
 
 .icon {
-	margin-top: 0.5rem;
+	margin-top: 0.3rem;
 	padding: 0.7rem;
 	font-weight: 400;
 	display: flex;
@@ -68,6 +74,7 @@ a {
 	align-items: center;
 	font-size: 1.2rem;
 	padding-right: 1rem;
+	padding-left: 0.5rem;
 }
 .text {
 	line-height: 1;
@@ -77,12 +84,16 @@ a {
 	border-color: #00000000;
 	background-color: #1d9bf0;
 	font-weight: 600;
-	padding: 0.5rem 4rem 0.5rem 4rem;
+	padding: 0.5rem 5rem 0.5rem 5rem;
 	font-size: 1rem;
-	border-radius: 1rem;
+	border-radius: 2rem;
 	margin-top: 0.5rem;
+	cursor: pointer;
 }
 
+.post-btn:hover {
+	background-color: #1495eb;
+}
 /* main-content here  */
 
 .main-content {
