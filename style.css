@@ -106,7 +106,7 @@ a {
 }
 
 .post-btn:hover {
-  background-color: #1495eb;
+  background-color: #1d9bf0;
 }
 
 .profile-btn {
@@ -240,17 +240,17 @@ a {
 
 .img-container {
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  text-align: center;
-  flex-direction: row;
-  padding: 0.5rem;
-  margin-left: 0.5rem;
-  /* gap: 1rem; */
+  justify-content: center;
+}
+.img-profile {
+  width: 2.5rem;
+  margin: 0.8rem;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 .post-input {
-  width: 60%;
+  width: 90%;
   padding: 1rem;
   border: none;
   background-color: #000000;
@@ -259,9 +259,78 @@ a {
 }
 
 .post-input::placeholder {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
+.input-icon {
+  width: 90%;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: self-start;
+  cursor: pointer;
+  margin-top: 0.5rem;
+}
+
+.privacy-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.9rem;
+  cursor: pointer;
+  color: #1d9bf0;
+  padding: 0.4rem;
+  gap: 0.5rem;
+  margin: 0.8rem;
+}
+.underline {
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 1px solid#80808072;
+  width: 96%;
+}
+.privacy-icon:hover {
+  background-color: #3c6c9921;
+  border-radius: 10rem;
+}
+.privacy-icon i {
+  color: #1d9bf0;
+  border-radius: 100%;
+}
+.share-icon {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 0.9rem;
+  margin-top: 0.6rem;
+  margin-bottom: 0.6rem;
+  cursor: pointer;
+}
+
+.share-icon i {
+  color: #1d9bf0;
+  padding: 0.6rem;
+  border-radius: 100%;
+}
+.share-icon i:hover {
+  background-color: #96969621;
+}
+
+.input-post-btn {
+  display: flex;
+  justify-content: center;
+  margin-left: 20rem;
+  align-items: center;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  background-color: #1d9bf0;
+  border-radius: 10rem;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.post {
+  border-bottom: 1px solid#80808072;
+}
 /* right-content here */
 .right-sidebar {
   padding-top: 0.5rem;
@@ -337,6 +406,7 @@ a {
     justify-content: center;
     justify-items: center;
     align-items: center;
+    margin-bottom: 1rem;
   }
 }
 
