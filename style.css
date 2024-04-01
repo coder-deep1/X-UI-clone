@@ -63,7 +63,7 @@ a {
 
 .icon {
   margin-top: 0.3rem;
-  padding: 0.6rem 1rem;
+  padding: 0.7rem 1rem;
   font-weight: 400;
   display: flex;
   justify-content: center;
@@ -73,7 +73,7 @@ a {
 
 .icon:hover {
   background-color: #8982822c;
-  border-radius: 50%;
+  border-radius: 20rem;
   opacity: 1;
 }
 
@@ -116,14 +116,13 @@ a {
   justify-items: center;
   align-items: center;
   margin-top: 3rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding: 0.7rem;
   cursor: pointer;
   gap: 1rem;
 }
 
 .profile-btn:hover {
-  background-color: #89828236;
+  background-color: #89828221;
   border-radius: 2rem;
   opacity: 1;
 }
