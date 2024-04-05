@@ -29,7 +29,7 @@
   justify-content: flex-start;
   flex-direction: column;
   max-width: 25%;
-  background-color: #1212;
+  /* background-color: #1212; */
   padding-left: 4rem;
   margin-right: 0.35rem;
   z-index: 1;
@@ -106,7 +106,7 @@ a {
 }
 
 .post-btn:hover {
-  background-color: #1d9bf0;
+  background-color: #0585db;
 }
 
 .profile-btn {
@@ -167,7 +167,7 @@ a {
 }
 
 .header {
-  padding: 0.4rem;
+  padding: 0.8rem;
   opacity: 0.6;
   display: flex;
   justify-content: center;
@@ -180,9 +180,9 @@ a {
 
 .for-you {
   width: 50%;
-  padding-top: 0.4rem;
-  padding-right: 0.4rem;
-  padding-left: 0.4rem;
+  padding-top: 0.8rem;
+  padding-right: 0.8rem;
+  padding-left: 0.8rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -208,7 +208,7 @@ a {
 .under-line {
   width: 25%;
   display: flex;
-  margin-top: 0.3rem;
+  margin-top: 0.8rem;
   align-self: center;
   border-radius: 1rem;
   border: 2px solid #1d9bf0;
@@ -241,9 +241,12 @@ a {
   display: flex;
   justify-content: center;
 }
+
 .img-profile {
   width: 2.5rem;
-  margin: 0.8rem;
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+  margin-left: 0.8rem;
   border-radius: 50%;
   object-fit: cover;
 }
@@ -282,26 +285,33 @@ a {
   gap: 0.5rem;
   margin: 0.8rem;
 }
+
 .underline {
   display: flex;
   justify-content: flex-start;
   border-bottom: 1px solid#80808072;
   width: 96%;
 }
+
 .privacy-icon:hover {
   background-color: #3c6c9921;
   border-radius: 10rem;
 }
+
 .privacy-icon i {
   color: #1d9bf0;
-  border-radius: 100%;
+  border-radius: 50%;
 }
+
 .share-icon {
   display: flex;
   justify-content: flex-start;
+  align-items: center;
   font-size: 0.9rem;
   margin-top: 0.6rem;
   margin-bottom: 0.6rem;
+  gap: 0.4rem;
+  border: none;
   cursor: pointer;
 }
 
@@ -310,6 +320,7 @@ a {
   padding: 0.6rem;
   border-radius: 100%;
 }
+
 .share-icon i:hover {
   background-color: #96969621;
 }
@@ -321,15 +332,16 @@ a {
   align-items: center;
   border: none;
   padding: 0.5rem 1.5rem;
-  background-color: #1d9bf0;
+  background-color: #108de0;
   border-radius: 10rem;
   cursor: pointer;
-  opacity: 0.9;
+  opacity: 0.8;
 }
 
 .post {
   border-bottom: 1px solid#80808072;
 }
+
 /* right-content here */
 .right-sidebar {
   padding-top: 0.5rem;
@@ -337,6 +349,13 @@ a {
   padding-left: 0.7rem;
   display: flex;
   justify-content: center;
+}
+
+.search-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2rem;
 }
 
 /*  media queries */
@@ -410,20 +429,16 @@ a {
 }
 
 /*  scroll bar color change  */
-/* WebKit browsers */
 ::-webkit-scrollbar {
   width: 0.9rem;
-  /* Scroller bar ki width set karein */
 }
 
 ::-webkit-scrollbar-track {
   background-color: #514e4e;
-  /* Scroller bar ka background color set karein */
 }
 
 ::-webkit-scrollbar-thumb {
   background-color: #1b1a1ac1;
-  /* Scroller bar ki thumb (handle) ka color set karein */
 }
 
 /* Handle on hover */

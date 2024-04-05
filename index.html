@@ -62,7 +62,7 @@
               <span class="logo-icon text r-b88u0q">Home</span>
             </a>
           </li>
-          <li>
+          <li id="search-input">
             <a href="#" class="icon">
               <i class="fa-solid fa-magnifying-glass fa-logo"></i>
               <span class="logo-icon text">Explore</span>
@@ -155,9 +155,9 @@
                   class="post-input"
                 />
                 <div class="underline">
-                  <span class="privacy-icon r-b88u0q"
-                    ><i class="fa-solid fa-earth-asia"></i>Everyone can
-                    reply</span
+                  <span class="privacy-icon r-b88u0q">
+                    <i class="fa-solid fa-earth-asia"></i>
+                    Everyone can reply</span
                   >
                 </div>
                 <div class="share-icon">
@@ -174,7 +174,19 @@
           </div>
         </div>
       </div>
-      <div class="right-sidebar">right-bar</div>
+      <div class="right-sidebar">
+        <div class="search-cont">
+          <label for="search-input">
+            <i class="fa-solid fa-search"></i>
+          </label>
+          <input
+            type="text"
+            id="search-input"
+            placeholder="Search Twitter"
+            aria-label="Search"
+          />
+        </div>
+      </div>
     </div>
   </body>
 </html>
