@@ -355,7 +355,30 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 2rem;
+  height: 3rem;
+  width: 90%;
+  background-color: #202327;
+  color: #71767b;
+  border-radius: 5rem;
+}
+.search-bar {
+  cursor: pointer;
+  border-top-right-radius: 5rem;
+  border-bottom-right-radius: 5rem;
+  width: 100%;
+  height: 3rem;
+  padding-left: 1rem;
+  background-color: transparent;
+  border: none;
+  font-size: 1.2rem;
+}
+
+.search-bar-icon > .lens-icon {
+  opacity: 0.6;
+}
+.search-bar-icon {
+  padding-left: 1rem;
+  cursor: pointer;
 }
 
 /*  media queries */
