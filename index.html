@@ -105,7 +105,9 @@
           </li>
           <li>
             <button class="post-btn">
-              <i class="fa-regular fa-square-plus"></i>
+              <i class="fa-regular fa-square-plus"
+                ><span class="post-btn-sidebar r-b88u0q r-a023e6">Post</span></i
+              >
             </button>
           </li>
         </ul>
@@ -198,5 +200,15 @@
         </div>
       </div>
     </div>
+
+    <!--  make website loader functionalities  -->
+    <div id="loader" class="loader"></div>
+    <script>
+      // Show loader and logo when the page starts reloading
+      window.addEventListener("beforeunload", function () {
+        document.getElementById("loader").style.display = "block";
+        document.querySelector(".logo").style.display = "block";
+      });
+    </script>
   </body>
 </html>

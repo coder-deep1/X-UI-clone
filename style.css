@@ -98,13 +98,16 @@ a {
   border-color: #00000000;
   background-color: #1d9bf0;
   font-weight: 600;
-  padding: 0.6rem 5rem 0.6rem 5rem;
+  padding: 0.6rem 4rem 0.6rem 4rem;
   font-size: 1rem;
-  border-radius: 2rem;
+  border-radius: 10rem;
   margin-top: 0.5rem;
   cursor: pointer;
 }
-
+.post-btn-sidebar {
+  margin-left: 0.4rem;
+  display: none;
+}
 .post-btn:hover {
   background-color: #0585db;
 }
@@ -479,6 +482,10 @@ a {
     border-radius: 100%;
   }
 
+  .post-btn-sidebar {
+    /* display: inline; */
+    margin-left: 0.4rem;
+  }
   .profile-btn {
     margin-top: 1rem;
     margin-left: 2rem;
@@ -514,4 +521,29 @@ a {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
+}
+
+/* Loader CSS */
+.loader {
+  display: none; /* Initially hidden */
+  border: 5px solid #f3f3f3; /* Light grey */
+  border-top: 5px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999; /* Ensure it's above other elements */
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
