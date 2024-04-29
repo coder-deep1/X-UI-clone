@@ -52,13 +52,13 @@ Contributions are welcomed! Feel free to open issues or submit pull requests to 
 ## Author
 
 - **Deepansh Gangwar**
-  - [GitHub](https://github.com/coder-deep1)
+  - [GitHub](https://github.com/mr-deepansh)
   - [LinkedIn](https://www.linkedin.com/in/deepansh-gangwar/)
   - [Instagram](https://www.instagram.com/coders_war.in/)
 
 ## Hosting
 
-- [Live Demo](https://coder-deep1.github.io/twitter-x-ui-clone/)
+- [Live Demo](https://mr-deepansh.github.io/twitter-x-ui-clone/)
 
 ## License
 
