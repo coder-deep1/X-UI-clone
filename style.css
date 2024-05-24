@@ -13,6 +13,7 @@
 .container {
   display: flex;
   justify-content: center;
+  flex-direction: row;
   width: 100%;
   min-height: 100vh;
   background: #000000;
@@ -249,7 +250,7 @@ a {
 .img-container {
   display: flex;
   justify-content: center;
-  padding-right: 1rem;
+  /* padding-right: 1rem; */
 }
 .img-cont {
   padding-left: 1rem;
@@ -358,7 +359,7 @@ a {
 
 .post-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: stretch;
 }
 
@@ -383,18 +384,31 @@ a {
   object-fit: cover;
   margin: 0.3rem;
 }
+
 .post-content {
   flex-basis: 10%;
 }
 .post-details {
   flex-basis: 90%;
-  background-color: lightblue;
+  background: lightblue;
 }
 .bottom-icons {
-  flex-grow: 1;
-  background-color: rgb(115, 146, 115);
+  width: 100%;
+  background-color: #00000026;
 }
-
+.interactions {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+  padding-right: 0.6rem;
+  padding-left: 0.3rem;
+}
+.inner_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
 /* right-content here */
 
 .right-sidebar {
